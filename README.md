@@ -7,16 +7,6 @@ import java.util.concurrent.*;
 import java.util.regex.*;
 
 class Result {
-
-    /*
-     * Complete the 'toys' function below.
-     *
-     * The function is expected to return an INTEGER.
-     * The function accepts INTEGER_ARRAY w as parameter.
-     */
-
-    public static int toys(List<Integer> w) {
-    // Write your code here
 Collections.sort(w);
 
 int containers = 0;
@@ -62,4 +52,5 @@ public class Solution {
         bufferedWriter.close();
     }
 }
+
 
